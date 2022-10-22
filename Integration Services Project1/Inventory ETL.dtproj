@@ -26,13 +26,13 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">VICKICII</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4Ai3dsMmzk+4h9I/LmbIcAAAAAACAAAAAAAQZgAAAAEAACAAAADGWqzq6CUJYwqVrVd6w7j/IV/E5+XUSPmfilUNzgcEygAAAAAOgAAAAAIAACAAAACDZbX8GG52YeHzjqbbJsJg4LFe/mhgbyPFYEPuoHHq+JAAAAAbyT05fF4fQLv6ZQ/Aank2kgf0rV1/z57ATM9SuevFKHyMLuxC2sxpHJdIdfhiULiYxZdY6sFBeNVl751VAYlk0Tm5BhqZSMLF+q58Bxxv2Zd+HpI4RSjwonmjX8tgCheemyCvUKWKxIzmajTLSxcAWtYbNuM1tmeD33cJiBoIV4O9Fe3FweINawrkTFcfR8tAAAAA6pxrhqScvE1lu2IsMYZwTvw1Ek7fA3kevH1CK2USANmeBMUcdQ0ZSOXQcXxmaR2tCLcT/+qdJYnTgjh4fhg72g==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4Ai3dsMmzk+4h9I/LmbIcAAAAAACAAAAAAAQZgAAAAEAACAAAAAVLJLtTbUbvVXBTlwwD0NbTYkM1WUPIcKmv0swHXXFtQAAAAAOgAAAAAIAACAAAAD6nGVikqRHgiYmxPSlxtYRXM6d+RUWMaw0UQTiyQzlqZAAAACYCLn4DQb3Kxaap3JhJN5fBP3oA1CyK1H2AZeXFD6ExSnmk071BQh3iYtPjZxiO9BJpP4hQLD9imsmcpWDxJSBfrKaLbjfp+bVc0y4JfRDC/s/tbyCtf3s5cNUBOsbqzr5kuBvFAIEMiJ4vJP/Oqs7ZJUFgK/O5L6hHEA5wMwml0Q8h3KXsw6FHwvsXgjT5INAAAAACljYoH+m6gYNUcvsq+rqg7OvqYE+wTfOhRoJunC8Ax0bc6UnkKlRKjgVjGneMxeXGLq/YqKqjNvtgUVkrgP1OA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="MyPackage.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="TestingInv.dtsx" SSIS:EntryPoint="1" />
-          <SSIS:Package SSIS:Name="UltimTrial.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="InventoryETL.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -611,7 +611,7 @@
                 </SSIS:Parameter>
               </SSIS:Parameters>
             </SSIS:PackageMetaData>
-            <SSIS:PackageMetaData SSIS:Name="UltimTrial.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="InventoryETL.dtsx">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">{E0A5D7B4-27AD-4CE8-BB39-DA3E8C9E4D2B}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
